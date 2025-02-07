@@ -87,6 +87,22 @@ export class ProjectsComponent {
     },
 
 
+    {
+      src: 'assets/img/projects/vtme.png',
+      alt: 'Controle de pedidos',
+      title: 'Vtme Controller',
+      width: '100px',
+      height: '51px',
+      description: 'Explore o site ',
+      links: [
+        {
+          name: 'Apresento o site que desenvolvi, onde você pode gerenciar e controlar os pedidos que realiza no seu dia a dia. Todos os pedidos são automaticamente direcionados para uma planilha de ranking, facilitando o acompanhamento e análise de suas escolhas',
+          href: 'https://kaikedev.github.io/Relatorio_VTME/'
+        }
+      ]
+    },
+
+
   ])
 
   public openDialog(data:IProjects){
